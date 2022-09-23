@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - prod
+
+server:
+  port: 8080
+
+logging:
+  file:
+    name: /opt/aws-cicd/logs

@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - local
+
+server:
+  port: 18080
+
+logging:
+  file:
+    name: ./logs
