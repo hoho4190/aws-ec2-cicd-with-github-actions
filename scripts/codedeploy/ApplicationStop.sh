@@ -2,4 +2,4 @@
 
 SERVICE_NAME=aws-cicd
 
-sudo systemctl start $SERVICE_NAME
+sudo systemctl stop $SERVICE_NAME
